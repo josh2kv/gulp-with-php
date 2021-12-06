@@ -1,0 +1,11 @@
+.container {
+    @include body-container(16, 16, 3);
+
+    .segment-left {
+        @include segment(1, 9, 1, -1);
+    }
+
+    .segment-right {
+        @include segment(9, -1, 1, -1);
+    }
+}
