@@ -7,5 +7,13 @@
 
     .segment-right {
         @include segment(9, -1, 1, -1);
+
+        #test2 {
+            @include text-neon;
+            @include box-neon;
+
+            font-size: 2rem;
+            text-align: center;
+        }
     }
 }

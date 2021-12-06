@@ -1,7 +1,7 @@
 'use strict';
 
 window.addEventListener('DOMContentLoaded', () => {
-    const test2 = new Test('test2');
+    const test2 = new Test('js works!');
     document.getElementById('test2').textContent = test2.text;
 });
 
