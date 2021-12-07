@@ -3,6 +3,7 @@
 
     .segment-left {
         @include segment(1, 9, 1, -1);
+        font-size: 4rem;
     }
 
     .segment-right {
@@ -12,7 +13,7 @@
             @include text-neon;
             @include box-neon;
 
-            font-size: 2rem;
+            font-size: 4rem;
             text-align: center;
         }
     }
